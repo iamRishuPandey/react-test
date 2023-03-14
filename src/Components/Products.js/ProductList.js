@@ -11,12 +11,15 @@ function ProductList(props) {
         <ul>
           {products.map((product) => (
             <li key={product.id}>
-              {product.id} | {product.name} | {product.sellingPrice} | {product.category}
+              {product.id}  {product.name}  {product.sellingPrice}  {product.category}
             </li>
+            
           ))}
         </ul>
+        
       )}
     </div>
+    
   );
 }
 
